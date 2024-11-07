@@ -9,8 +9,8 @@ import pojos.RoomPojo;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
-import static stepdefinitions.RoomCreationStepDefs.roomId;
-import static stepdefinitions.RoomCreationStepDefs.roomNumber;
+import static stepdefinitions.ui.RoomCreationStepDefs.roomId;
+import static stepdefinitions.ui.RoomCreationStepDefs.roomNumber;
 import static utilities.ObjectMapperUtils.convertJsonToJava;
 
 public class GetRequestStepDefs extends Medunna_BaseUrl {
